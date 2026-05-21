@@ -17,7 +17,6 @@ An AI-powered full-stack web application designed to help job seekers audit and 
 
 * **Frontend**: React (Vite), Tailwind CSS, Lucide Icons, Canvas Confetti, Recharts
 * **Backend**: FastAPI, Uvicorn, PyPDF, docx2txt, python-dotenv
-* **AI Model**: Google Gemini API (`gemini-1.5-flash`)
 
 ---
 
