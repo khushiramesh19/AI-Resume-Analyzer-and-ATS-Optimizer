@@ -39,11 +39,7 @@ Follow these steps to run the application locally.
    ```bash
    pip install -r requirements.txt
    ```
-3. (Optional) Create a `.env` file in the `backend` folder and add your Gemini API Key:
-   ```env
-   GEMINI_API_KEY=your_gemini_api_key_here
-   ```
-4. Start the FastAPI server:
+3. Start the FastAPI server:
    ```bash
    uvicorn app:app --reload
    ```
