@@ -2,7 +2,7 @@
 
 An AI-powered full-stack web application designed to help job seekers audit and optimize their resumes for Applicant Tracking Systems (ATS) and recruiters. It extracts text from uploaded resumes (PDF, DOCX, TXT), evaluates formatting and keyword matching against specific job descriptions, suggests critical improvements, offers side-by-side bullet point rewrites, and features an interactive AI chat coach.
 
-## 🚀 Key Features
+##  Key Features
 
 * **Multi-Format Parser**: Directly parses `.pdf`, `.docx`, and `.txt` files client-side.
 * **ATS Scorecard Dashboard**: Radial gauges show ATS compatibility, formatting compliance, and keyword matching.
@@ -13,14 +13,14 @@ An AI-powered full-stack web application designed to help job seekers audit and 
 * **Downloader & Copy Center**: Formats and exports the optimized resume as a clean Markdown (`.md`) file.
 * **Demo Mode**: Run the dashboard instantly with preloaded resumes and analysis mock data (perfect for showcase purposes).
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Frontend**: React (Vite), Tailwind CSS, Lucide Icons, Canvas Confetti, Recharts
 * **Backend**: FastAPI, Uvicorn, PyPDF, docx2txt, python-dotenv
 
 ---
 
-## 💻 Getting Started
+## Getting Started
 
 Follow these steps to run the application locally.
 
