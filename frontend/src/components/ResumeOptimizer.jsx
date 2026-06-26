@@ -11,7 +11,7 @@ export default function ResumeOptimizer({ resumeText, jobDescription, apiKey }) 
     setIsLoading(true);
     setError('');
     try {
-      const response = await fetch('http://127.0.0.1:8000/api/optimize-resume', {
+      const response = await fetch('https://ai-resume-analyzer-and-ats-optimizer.onrender.com/api/optimize-resume', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

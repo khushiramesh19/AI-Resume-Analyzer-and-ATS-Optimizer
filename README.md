@@ -43,7 +43,7 @@ Follow these steps to run the application locally.
    ```bash
    uvicorn app:app --reload
    ```
-   The API will run at `http://127.0.0.1:8000`. You can inspect the Swagger documentation at `http://127.0.0.1:8000/docs`.
+   The API will run at `https://ai-resume-analyzer-and-ats-optimizer.onrender.com`. You can inspect the Swagger documentation at `https://ai-resume-analyzer-and-ats-optimizer.onrender.com/docs`.
 
 ### 2. Frontend Setup
 
