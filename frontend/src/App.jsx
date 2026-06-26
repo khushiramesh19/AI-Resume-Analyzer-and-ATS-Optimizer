@@ -93,7 +93,7 @@ export default function App() {
         headers['X-Gemini-Key'] = apiKey;
       }
 
-      const response = await fetch('http://127.0.0.1:8000/api/analyze', {
+      const response = await fetch('https://ai-resume-analyzer-and-ats-optimizer.onrender.com/api/analyze', {
         method: 'POST',
         headers: headers,
         body: formData,
