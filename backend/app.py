@@ -276,7 +276,7 @@ async def analyze_resume(
         try:
             genai.configure(api_key=api_key)
             model = genai.GenerativeModel(
-                model_name="gemini-1.5-flash",
+                model_name="gemini-2.0-flash",
                 generation_config={"response_mime_type": "application/json"}
             )
             
@@ -391,7 +391,7 @@ async def chat_assistant(request: ChatRequest):
 
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        model = genai.GenerativeModel("gemini-2.0-flash")
         
         # Build conversational prompt
         history_context = ""
@@ -451,7 +451,7 @@ Highly motivated technical professional seeking a role as a Software Specialist.
 
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        model = genai.GenerativeModel("gemini-2.0-flash")
         
         prompt = f"""
         You are a professional resume writer.
