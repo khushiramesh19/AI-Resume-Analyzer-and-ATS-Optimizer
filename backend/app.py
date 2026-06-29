@@ -494,7 +494,7 @@ async def optimize_resume(request: OptimizeRequest):
         projects_str = "- Developed and deployed full-stack web applications using modern tech stack\n"
 
     optimized_md = f"""# {name}
-{email} | {phone} | GitHub: github.com/khushiramesh19
+{email} | {phone} 
 
 ---
 
